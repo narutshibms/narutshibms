@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    border-style: border-box;
+    text-decoration: none;
+    
+}
+@font-face {
+    font-family: Odachi;
+    src: url(Odachi\ 400.otf);
+  }
+  .logo {
+    color: #9e9b9b;
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: Odachi;
+    letter-spacing: 5px;
+    
+
+}
+  header {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #293462;
+    padding: 19.6px;
+    width: 100%;
+    position: fixed;
+    
+    
+
+}
+
+.menu a {
+    color: #FFFFFF;
+    font-size: 18.3px;
+    font-family: Arial;
+    font-weight: 500;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+
+}
+
+.logo {
+    color: #9e9b9b;
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: Odachi;
+    letter-spacing: 5px;
+    
+
+}
+
+.menu a:hover {
+    color: rgb(9, 195, 37);
+    transition: .7s ease-in-out;
+
+}
+
+.sc{
+    padding: 16% 9%;
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    background-color: #293462;
+    justify-content: space-around;
+}
+
+
+
+.mains h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #9e9b9b;
+    margin-bottom: 22px;
+    font-weight: bold;
+    font-size: 60px;
+
+}
+
+.mains span {
+    color: #6A67CE;
+}
+
+.sc .btn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    font-weight: bolder;
+    border: 2px solid rgb(134, 130, 130);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display:  inline-block;
+    text-align: center;
+    border-radius: 50px 20px;
+}
+
+.sc .btn:hover {
+
+    color: aqua;
+    background-color: rgb(37, 107, 204);
+    transform: scale(1.1);
+    box-shadow: 
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.5s ease;
+}
+
+
+
+.sc .cen
+{
+   margin-left: -15%;
+  
+}
+
+.flyr{
+    height: 52px;
+    width: 50px;
+    margin-right :20%;
+
+}
+.s{
+    background-color: #293462;
+}

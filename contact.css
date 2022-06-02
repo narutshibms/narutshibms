@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    border-style: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    padding: 19.6px;
+    width: 100%;
+    position: fixed;
+    
+    
+
+}
+
+.menu a {
+    color: #FFFFFF;
+    font-size: 18.3px;
+    font-family: Arial;
+    font-weight: 500;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+
+}
+
+@font-face {
+    font-family: Odachi;
+    src: url(Odachi\ 400.otf);
+  }
+  .logo {
+    color: #9e9b9b;
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: Odachi;
+    letter-spacing: 5px;
+    
+
+}
+
+.menu a:hover {
+    color: rgb(9, 195, 37);
+    transition: .7s ease-in-out;
+
+}
+
+.above{
+    color: white;
+    padding-top: 14%;
+    text-align: center;
+}
+.above li{
+   display: inline-block;
+}
+.above img {
+    height: 50px;
+    width: 50px;
+    margin: 70px 20px 50px 20px ;
+   
+}
+.above img:hover{
+    height: 52px;
+    width: 52px;
+    transition: 0.2s ease-in;
+    
+}
+
+.frm{
+    padding-top: 7%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    
+    text-align: center;
+    background-color: rgb(162, 140, 112);
+    padding: 5% 10% 5% 10%;
+    border-radius: 20px 20px;
+    box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card li{
+  
+    padding: 20px;
+
+}
+.card li img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: -10px;
+}
+.card label{
+    margin-right: 18px;
+}
+
+input
+{   
+    font-family:  sans-serif;
+    font-size: small;
+    background: transparent;
+    border: none;
+    font-size: 1.1rem;
+    border-bottom: 0.125rem solid;
+    outline: none;
+    
+}
+
+input:hover{
+    border-bottom: 0.125rem solid forestgreen;
+}
+
+.send{
+
+    border: 1.5px solid  gray;
+    padding: 10px 60px 10px 60px;
+    border-radius: 12px 12px;
+    background-color: rgb(47, 47, 48);
+    color: rgb(255, 255, 255);
+    margin-bottom: -10%;
+    
+}
+
+ #msg{
+    
+    outline: none;
+    background: transparent;
+    font-family:  sans-serif;
+    font-size: 30px;
+    border: none;
+    font-size: 1.1rem;
+    border-bottom: 0.125rem solid;
+    color: #342b2b;
+    
+
+}
+#msg:hover{
+
+    height: 14%;
+    border-bottom: 0.125rem solid rgb(112, 234, 36);
+    transition: 0.7s ease;
+
+}
+.send:hover{
+    
+    color: aquamarine;
+    transition: 0.7s ease;
+    
+    
+}
+
+footer{
+   
+    text-align: center;
+    padding: 5%;
+    color: azure;
+
+}
+footer img {
+    height: 40px;
+    width: 40px;
+    margin-bottom: -12px;
+}

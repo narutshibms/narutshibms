@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    border-style: border-box;
+    text-decoration: none;
+}
+
+header {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #293462;
+    padding: 19.6px;
+    width: 100%;
+    position: fixed;
+    
+    
+
+}
+.menu a {
+    color: #FFFFFF;
+    font-size: 18.3px;
+    font-family: Arial;
+    font-weight: 500;
+    margin-right: 10px;
+    margin-left: 10px;
+
+    
+
+}
+
+@font-face {
+    font-family: Odachi;
+    src: url(Odachi\ 400.otf);
+  }
+  .logo {
+    color: #9e9b9b;
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: Odachi;
+    letter-spacing: 5px;
+    
+
+}
+.logo span{
+    color: #44c35b;
+    font-weight: bold;
+}
+.menu a:hover {
+    color: rgb(9, 195, 37);
+    transition: .5s ease-in-out;
+}
+section{
+
+    background-color: #293462;
+    padding-top: 7% ;
+    height: 30vh;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 26px;
+    
+     
+    
+    
+    
+    
+}
+section h1{
+    margin: 30px 0 1.5% -20%;
+    color: rgb(83, 87, 115);
+}
+section p{
+    color: antiquewhite;
+    font-size: small;
+    letter-spacing: 0.1cm;
+}
+.bigfooter{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #0c0909;
+    
+
+}
+.bigfooter span{
+    color: #406882;
+}
+.bigfooter div{
+    padding-top: 10%;
+}
+.bigfooter div li  {
+    
+     width: 50%px;
+     margin: 25px;
+     list-style: none;
+}
+.bigfooter div li a{
+    
+    font-family:'Lucida Sans';
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: rgb(211, 200, 200);
+    font-size: medium;
+    font-weight: 500;
+   
+}
+.tt{
+    height: 60%;
+    background-color: #0c0909;
+    text-align: center;
+    color: #9e9b9b;
+    padding: 10%;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.diplomes{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+     padding-top: 4%;
+    background-color: #293462;
+    color: #FFFFFF;
+}
+
+.diplomes div{
+     
+    
+    height: 240px;
+    width: 170px;
+    background-color: rgb(14, 13, 21);
+    padding: 7.4em;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, 
+     rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    text-align: center;
+    margin: 7px;
+ 
+     
+
+}
+#cer{
+    text-align: center;
+    background-color:  #293462;
+    padding-top: 15px;
+    color: #FFE69A;
+}
+.diplomes div img{
+     height: 100px;
+     width: 103px;
+     margin-bottom: 10px;
+}
+.diplomes li{
+    list-style: none;
+    color: #B1BCE6;
+}
+.diplomes span{
+    color: #EB5353;
+}
+.dut{
+    height: 240px;
+    width: 170px;
+    background-color: rgb(14, 13, 21);
+    padding: 7.4em;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, 
+     rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: -28%;
+    border-radius: 4px;
+ 
+    
+}
+.dut img{
+     height: 100px;
+     width: 103px;
+     margin-bottom: 10px;
+}
+.dut li{ list-style-type: none; color: white }
+.dut span{  
+    color: #EB5353;
+
+ }
+
+ #conta {
+    background-color: #293462;
+    padding-bottom: 10%;
+      color: white;
+}
+.diplomes div:hover{
+    background-color: rgb(31, 31, 41);
+    transition: .6s ease-in-out;
+
+      
+}
+#conta div:hover{
+    background-color: rgb(31, 31, 41);
+    transition: .6s ease-in-out;
+
+      
+}
